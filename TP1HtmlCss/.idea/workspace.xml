@@ -4,38 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fbd6c00-f3b2-4298-84a1-c578d4d7eb2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/3k9Lo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3k9Lo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3k9Lo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3k9Lo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3k9Lo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3k9Lo/3k9Lo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3k9Lo/src/Edificio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3k9Lo/src/Escritura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3k9Lo/src/Lote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3k9Lo/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3k9Lo/src/RegistroPropiedad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Desarrollo-de-Software.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Desarrollo-de-Software.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
-    </list>
+    <list default="true" id="9fbd6c00-f3b2-4298-84a1-c578d4d7eb2a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="31sde1eBIo2VPCIeeNBUzbQgwL3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,9 +25,10 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/francog/Documentos/Estudios/UTN/Desarrollo-de-Software"
+    "last_opened_file_path": "/home/francog/Documentos/Estudios/UTN/Desarrollo-de-Software/TP1HtmlCss"
   }
 }]]></component>
   <component name="TaskManager">
