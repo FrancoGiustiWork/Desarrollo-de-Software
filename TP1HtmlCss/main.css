@@ -1,0 +1,27 @@
+header {
+  color: #9FC7C6
+}
+
+footer {
+  color: #A19FC7
+}
+
+.header {
+  align-content: center;
+}
+
+.sider {
+  text-align: left;
+}
+
+main {
+  color: #D9B7B0;
+
+  h1 {
+    color: #D9CFA9
+  }
+}
+
+body {
+  background-color: #1f1f1f;
+}
