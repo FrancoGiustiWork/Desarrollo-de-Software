@@ -1,17 +1,142 @@
+header img {
+  height: 90%;
+  width: auto;
+  border-radius: 50%;
+}
+
+article {
+  border: 3px solid;
+  margin: 20px;
+  border-radius: 8px;
+  border-color: #313E57;
+  padding: 20px;
+}
+
+/* Estilos para que cada par de label e input se apile verticalmente */
+.form-item {
+  display: flex;
+  /* Hacemos que el li sea un contenedor flex */
+  flex-direction: column;
+  /* Apilamos los elementos verticalmente (uno encima del otro) */
+  margin-bottom: 20px;
+  /* Añadimos espacio debajo de cada elemento de la lista */
+  width: 100%;
+  /* Hacemos que ocupe el 100% del espacio del ul */
+}
+
+/* Estilos para el formulario en general */
+form {
+  display: flex;
+  flex-direction: column;
+  /* Apilamos todos los elementos de la lista en una columna */
+  align-items: center;
+  /* Centramos el formulario horizontalmente */
+  border: 3px solid;
+  border-color: #313E57;
+  padding: 20px;
+  margin: 20px auto;
+  /* Centramos el formulario en la página */
+  max-width: 600px;
+  /* Le damos un ancho máximo para que no se extienda demasiado */
+  border-radius: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  /* Aseguramos que la lista ocupe el 100% del formulario */
+}
+
+input,
+textarea {
+  border-radius: 8px;
+  background-color: #212733;
+  color: #9FC7C6;
+  border: 1px solid #313E57;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  /* Esto asegura que el padding no afecte el ancho total */
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #9FC7C6;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #9FC7C6;
+}
+
 header {
+  border-radius: 8px;
+  background-color: #212733;
+  height: 10vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: #9FC7C6
 }
 
+/* Estilo del contenedor principal */
 footer {
-  color: #A19FC7
+  text-align: center;
+  /* Centra la tabla horizontalmente */
+  padding: 20px;
+  border-top: 3px solid #313E57;
 }
 
-.header {
-  align-content: center;
+/* Estilo de la tabla para que se vea limpia */
+table {
+  border-collapse: collapse;
+  /* Elimina el espacio entre las celdas */
+  width: 100%;
+  max-width: 500px;
+  /* Evita que la tabla sea demasiado ancha en pantallas grandes */
+  margin: 0 auto;
+  /* Centra la tabla dentro del footer */
+  background-color: #B0C2C1;
+  border-radius: 8px;
+  /* Bordes redondeados */
+  overflow: hidden;
+  /* Asegura que los bordes redondeados se apliquen correctamente */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.sider {
+/* Estilo de los encabezados de la tabla */
+th {
+  padding: 12px 15px;
+  background-color: #313e57;
+  color: #fff;
   text-align: left;
+}
+
+/* Estilo para las celdas de datos */
+td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+  /* Líneas divisorias sutiles */
+  color: #333;
+  text-align: left;
+}
+
+/* Estilo para la primera columna */
+.sider {
+  background-color: #ddd;
+  /* Color de fondo diferente para las etiquetas */
+  font-weight: bold;
+  color: #555;
+}
+
+/* Estilo para la última fila */
+tr:last-child td,
+tr:last-child th {
+  border-bottom: none;
 }
 
 main {
